@@ -1,0 +1,36 @@
+Treatment, Behaviors:
+Smoking		_SMOKER3
+Drinking		_RFBING5
+Sleeping		SLEPTIM1	Cast to categorical variable
+Exercise		_TOTINDA
+
+Health, Outcome:
+General		_RFHLTH
+General		_PHYS14D
+Mental		_MENT14D
+
+Confounder:
+SES		_INCOMG
+		MARITAL
+		_EDUCAG
+		_URBSTAT
+
+Personal		_RACEPRV
+		_AGE_G
+		_SEX
+
+Illness Confounder:
+Health care access	_HCVU651
+Chronic		_MICHD
+asthma		_ASTHMS1
+arthritis		_DRDXAR2
+HIV		_AIDTST4
+heart attack	CVDINFR4
+angina chd	CVDCRHD4
+stroke		CVDSTRK3
+diabete		DIABETE4
+memory loss	CIMEMLOS
+
+
+
+
